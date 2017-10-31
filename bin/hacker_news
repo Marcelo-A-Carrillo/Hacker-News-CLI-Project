@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+#This hacker_news.rb file in this bin folder will be my executable file
+require_relative'../lib/hackernews'
+
+#This is a new instance of my CLI class and here I run my first method from the cli which I named (news)
+HackerNews::CLI.new.news
